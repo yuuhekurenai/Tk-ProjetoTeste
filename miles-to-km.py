@@ -1,5 +1,6 @@
 from tkinter import *
 
+#Função para calcular milhas em kilometros.
 def miles_to_km():
     milhas = float(milhas_input.get())
     Km = round(milhas * 1.609)
@@ -26,11 +27,6 @@ kilometros_label.grid(column=2, row=1)
 
 calculo_btn = Button(text="Calcular", command=miles_to_km)
 calculo_btn.grid(column=1, row=2)
-
-
-
-
-
 
 
 janela.mainloop()
